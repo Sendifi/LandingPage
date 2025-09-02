@@ -136,5 +136,3 @@ Si necesitas ayuda o tienes preguntas sobre el landing page, revisa:
 Este proyecto está creado para SENDIFY. Asegúrate de tener los derechos necesarios para usar las imágenes y contenido.
 
 ---
-
-**¡Disfruta tu nuevo landing page de SENDIFY! 🎉** 
