@@ -8,46 +8,50 @@ const translations = {
         'nav-demo': 'Demo',
         'nav-comentarios': 'Comentarios',
         'nav-equipo': 'Equipo',
-        'hero-title': 'Simplifica y controla tus envíos con SENDIFY',
-        'hero-subtitle': 'Una plataforma centralizada para gestionar, rastrear y optimizar tus envíos.',
-        'btn-comenzar': 'Comenzar gratis',
+        'hero-title': 'Sistema web SaaS para gestión logística de envíos',
+        'hero-subtitle': 'Sendify permite a empresas de cualquier tamaño crear, organizar y dar seguimiento a sus envíos en una sola plataforma digital. Desde pymes hasta operadores logísticos.',
+        'btn-comenzar': 'Probar gratis',
         'btn-ver-planes': 'Ver planes',
         'features-title': 'Funcionalidades Clave de SENDIFY',
-        'feature-1-title': 'Gestión de envíos',
-        'feature-1-desc': 'Organiza, crea y gestiona todos tus envíos desde una única plataforma intuitiva. Simplifica tus operaciones logísticas.',
-        'feature-2-title': 'Tracking en tiempo real',
-        'feature-2-desc': 'Monitorea la ubicación y el estado de tus paquetes con actualizaciones en tiempo real. Nunca pierdas de vista un envío.',
-        'feature-3-title': 'Historial y reportes',
-        'feature-3-desc': 'Accede a un historial detallado de tus envíos y genera reportes personalizados para analizar tu rendimiento logístico.',
-        'slogan': 'Envia rapido, envia seguro',
+        'feature-1-title': 'Gestión centralizada de envíos',
+        'feature-1-desc': 'Crea nuevos envíos con formulario simple (remitente, destinatario, dirección, peso, tipo de servicio). Generación automática de códigos de tracking únicos.',
+        'feature-2-title': 'Tracking público en tiempo real',
+        'feature-2-desc': 'Clientes finales consultan tracking sin registrarse. Línea de tiempo: Registrado → En tránsito → En reparto → Entregado.',
+        'feature-3-title': 'Gestión de flota y asignación',
+        'feature-3-desc': 'Registra vehículos y conductores. Asigna envíos a la flota o personal de reparto. Controla disponibilidad de cada recurso.',
+        'slogan': 'Una sola plataforma digital para toda tu logística de envíos',
         'video-title': 'Te presentamos SENDIFY',
         'testimonials-title': 'Comentarios de nuestros clientes',
         'team-title': 'Equipo Horizon',
-        'pricing-title': 'Listo para comenzar a enviar?',
-        'plan-basico': 'Plan Básico',
-        'plan-pro': 'Plan Pro',
-        'plan-empresarial': 'Plan Empresarial',
-        'btn-comenzar-gratis': 'Comenzar gratis',
-        'btn-unete-ahora': 'Únete ahora',
+        'pricing-title': 'Planes de Suscripción',
+        'plan-basico': 'Starter',
+        'plan-pro': 'Pro',
+        'plan-empresarial': 'Enterprise',
+        'btn-comenzar-gratis': 'Comenzar',
+        'btn-unete-ahora': 'Elegir plan',
         'btn-contactanos': 'Contáctanos',
-        'features-description': 'SENDIFY es una plataforma web que te permite gestionar todos tus envíos desde un solo lugar, con herramientas intuitivas y reportes detallados para optimizar tu logística.',
-        'team-description': 'Horizon es el equipo core detrás de SENDIFY, comprometido con la innovación y la excelencia en la gestión logística.',
-        'plan-basic-1': 'Hasta 10 envíos al mes',
-        'plan-basic-2': 'Seguimiento básico de paquetes (tracking estándar)',
-        'plan-basic-3': 'Gestión de clientes y direcciones frecuentes',
-        'plan-basic-4': 'Notificaciones por email',
-        'plan-basic-5': 'Acceso desde web y mobile',
-        'plan-pro-1': 'Hasta 500 envíos al mes',
-        'plan-pro-2': 'Reportes detallados de costos, tiempos y destinos frecuentes',
-        'plan-pro-3': 'Exportación de reportes en PDF/Excel',
-        'plan-pro-4': 'Soporte prioritario',
-        'plan-pro-5': 'Opciones de personalización en branding del panel',
-        'plan-enterprise-1': 'Envíos ilimitados',
-        'plan-enterprise-2': 'Tracking avanzado con geolocalización',
-        'plan-enterprise-3': 'API personalizada y integraciones',
-        'plan-enterprise-4': 'Soporte 24/7 con gestor dedicado',
-        'plan-enterprise-5': 'Branding completo y personalización total',
-        'footer-copyright': '© 2024 Sendify. Todos los derechos reservados.'
+        'btn-elegir-plan': 'Elegir Plan',
+        'features-description': 'SENDIFY es un sistema SaaS que permite gestionar todo desde una vista central: crear y actualizar envíos, registrar y controlar flota/conductores, monitorear estados en tiempo real y generar reportes según el plan.',
+        'team-description': 'Horizon es el equipo core detrás de SENDIFY, comprometido con la innovación y la digitalización de la gestión logística para empresas de cualquier tamaño.',
+        'plan-basic-1': 'Hasta 500 envíos/mes',
+        'plan-basic-2': 'Tracking público básico para clientes',
+        'plan-basic-3': 'Historial y reportes simples (pendientes/entregados)',
+        'plan-pro-1': 'Hasta 5,000 envíos/mes',
+        'plan-pro-2': 'Gestión de flota (conductores y vehículos)',
+        'plan-pro-3': 'Descargar reportes en Excel',
+        'plan-pro-4': 'Módulo de empleados avanzado',
+        'plan-enterprise-1': 'Envíos y usuarios ilimitados',
+        'plan-enterprise-2': 'Gestión completa de flota',
+        'plan-enterprise-3': 'Facturación consolidada mensual',
+        'plan-enterprise-4': 'Soporte 24/7 para la plataforma',
+        'plan-enterprise-5': 'Módulo de ganancias y métricas financieras',
+        'pricing-starter-price': 'USD 49.90/mes',
+        'pricing-pro-price': 'USD 99.90/mes',
+        'pricing-enterprise-price': 'USD 149.90/mes',
+        'pricing-starter-subtitle': 'Para pymes o couriers pequeños que recién digitalizan su logística',
+        'pricing-pro-subtitle': 'Para negocios medianos o ecommerce con alto volumen',
+        'pricing-enterprise-subtitle': 'Para grandes empresas y operadores logísticos',
+        'footer-copyright': '© 2025 Sendify. Todos los derechos reservados.'
     },
     en: {
         'nav-inicio': 'Home',
@@ -55,46 +59,50 @@ const translations = {
         'nav-demo': 'Demo',
         'nav-comentarios': 'Reviews',
         'nav-equipo': 'Team',
-        'hero-title': 'Simplify and control your shipments with SENDIFY',
-        'hero-subtitle': 'A centralized platform to manage, track and optimize your shipments.',
-        'btn-comenzar': 'Start free',
+        'hero-title': 'SaaS web system for logistics shipment management',
+        'hero-subtitle': 'Sendify allows companies of any size to create, organize and track their shipments on a single digital platform. From SMEs to logistics operators.',
+        'btn-comenzar': 'Try free',
         'btn-ver-planes': 'View plans',
         'features-title': 'Key Features of SENDIFY',
-        'feature-1-title': 'Shipment Management',
-        'feature-1-desc': 'Organize, create and manage all your shipments from a single intuitive platform. Simplify your logistics operations.',
-        'feature-2-title': 'Real-time Tracking',
-        'feature-2-desc': 'Monitor the location and status of your packages with real-time updates. Never lose track of a shipment.',
-        'feature-3-title': 'History and Reports',
-        'feature-3-desc': 'Access detailed history of your shipments and generate custom reports to analyze your logistics performance.',
-        'slogan': 'Ship fast, ship safe',
+        'feature-1-title': 'Centralized shipment management',
+        'feature-1-desc': 'Create new shipments with simple form (sender, recipient, address, weight, service type). Automatic generation of unique tracking codes.',
+        'feature-2-title': 'Real-time public tracking',
+        'feature-2-desc': 'End customers check tracking without registration. Timeline: Registered → In transit → Out for delivery → Delivered.',
+        'feature-3-title': 'Fleet management and assignment',
+        'feature-3-desc': 'Register vehicles and drivers. Assign shipments to fleet or delivery staff. Control availability of each resource.',
+        'slogan': 'One digital platform for all your shipping logistics',
         'video-title': 'Meet SENDIFY',
         'testimonials-title': 'Customer Reviews',
         'team-title': 'Horizon Team',
-        'pricing-title': 'Ready to start shipping?',
-        'plan-basico': 'Basic Plan',
-        'plan-pro': 'Pro Plan',
-        'plan-empresarial': 'Enterprise Plan',
-        'btn-comenzar-gratis': 'Start free',
-        'btn-unete-ahora': 'Join now',
+        'pricing-title': 'Subscription Plans',
+        'plan-basico': 'Starter',
+        'plan-pro': 'Pro',
+        'plan-empresarial': 'Enterprise',
+        'btn-comenzar-gratis': 'Start',
+        'btn-unete-ahora': 'Choose plan',
         'btn-contactanos': 'Contact us',
-        'features-description': 'SENDIFY is a web platform that allows you to manage all your shipments from one place, with intuitive tools and detailed reports to optimize your logistics.',
-        'team-description': 'Horizon is the core team behind SENDIFY, committed to innovation and excellence in logistics management.',
-        'plan-basic-1': 'Up to 10 shipments per month',
-        'plan-basic-2': 'Basic package tracking (standard tracking)',
-        'plan-basic-3': 'Customer and frequent addresses management',
-        'plan-basic-4': 'Email notifications',
-        'plan-basic-5': 'Web and mobile access',
-        'plan-pro-1': 'Up to 500 shipments per month',
-        'plan-pro-2': 'Detailed reports on costs, times and frequent destinations',
-        'plan-pro-3': 'Export reports in PDF/Excel',
-        'plan-pro-4': 'Priority support',
-        'plan-pro-5': 'Panel branding customization options',
-        'plan-enterprise-1': 'Unlimited shipments',
-        'plan-enterprise-2': 'Advanced tracking with geolocation',
-        'plan-enterprise-3': 'Custom API and integrations',
-        'plan-enterprise-4': '24/7 support with dedicated manager',
-        'plan-enterprise-5': 'Complete branding and total customization',
-        'footer-copyright': '© 2024 Sendify. All rights reserved.'
+        'btn-elegir-plan': 'Choose Plan',
+        'features-description': 'SENDIFY is a SaaS system that allows you to manage everything from a central view: create and update shipments, register and control fleet/drivers, monitor states in real time and generate reports according to the plan.',
+        'team-description': 'Horizon is the core team behind SENDIFY, committed to innovation and digitization of logistics management for companies of any size.',
+        'plan-basic-1': 'Up to 500 shipments/month',
+        'plan-basic-2': 'Basic public tracking for customers',
+        'plan-basic-3': 'Simple history and reports (pending/delivered)',
+        'plan-pro-1': 'Up to 5,000 shipments/month',
+        'plan-pro-2': 'Fleet management (drivers and vehicles)',
+        'plan-pro-3': 'Download Excel reports',
+        'plan-pro-4': 'Advanced employee module',
+        'plan-enterprise-1': 'Unlimited shipments and users',
+        'plan-enterprise-2': 'Complete fleet management',
+        'plan-enterprise-3': 'Monthly consolidated billing',
+        'plan-enterprise-4': '24/7 platform support',
+        'plan-enterprise-5': 'Earnings module and financial metrics',
+        'pricing-starter-price': 'USD 49.90/month',
+        'pricing-pro-price': 'USD 99.90/month',
+        'pricing-enterprise-price': 'USD 149.90/month',
+        'pricing-starter-subtitle': 'For SMEs or small couriers starting to digitize their logistics',
+        'pricing-pro-subtitle': 'For medium businesses or ecommerce with high volume',
+        'pricing-enterprise-subtitle': 'For large companies and logistics operators',
+        'footer-copyright': '© 2025 Sendify. All rights reserved.'
     }
 };
 
@@ -410,7 +418,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-
     // Carrusel de testimonios
     const testimonialsTrack = document.querySelector('.testimonials-track');
     if (testimonialsTrack) {
@@ -443,6 +450,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateLanguage();
     updateLanguageButtons();
     console.log('✅ Sistema de idiomas inicializado correctamente');
+    
 
     // Funcionalidad del menú hamburguesa - Versión simplificada y robusta
     function initMobileMenu() {
@@ -506,7 +514,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 const href = this.getAttribute('href');
-                console.log('🔗 Enlace móvil clickeado:', href);
+                console.log('�� Enlace móvil clickeado:', href);
                 
                 closeMenu();
                 
@@ -531,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (mobileLanguageBtn) {
             mobileLanguageBtn.addEventListener('click', function(e) {
                 e.preventDefault();
-                console.log('🌐 Botón de idioma móvil clickeado');
+                console.log('�� Botón de idioma móvil clickeado');
                 closeMenu();
             });
         }
@@ -539,7 +547,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Cerrar menú al hacer clic fuera de él
         mobileMenu.addEventListener('click', function(e) {
             if (e.target === mobileMenu) {
-                console.log('👆 Clic fuera del menú');
+                console.log('�� Clic fuera del menú');
                 closeMenu();
             }
         });
@@ -563,4 +571,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     console.log('SENDIFY Landing Page cargado exitosamente! 🚀');
-}); 
+});
