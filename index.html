@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -84,8 +85,8 @@
                     <div class="feature-icon">
                         <i class="fas fa-shipping-fast"></i>
                     </div>
-                    <h3 class="feature-title" data-translate="feature-1-title">Gestión centralizada de envíos</h3>
-                    <p class="feature-description" data-translate="feature-1-desc">Crea nuevos envíos con formulario simple (remitente, destinatario, dirección, peso, tipo de servicio). Generación automática de códigos de tracking únicos.</p>
+                    <h3 class="feature-title" data-translate="feature-1-title">Gestión de Envíos</h3>
+                    <p class="feature-description" data-translate="feature-1-desc">Crea, actualiza y rastrea envíos desde una interfaz intuitiva. Genera códigos de seguimiento únicos y mantén informados a tus clientes.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -108,10 +109,11 @@
         </div>
     </section>
 
-    <!-- Call to Action Slogan -->
     <section class="slogan">
         <div class="container">
-            <h2 class="slogan-title" data-translate="slogan">Una sola plataforma digital para toda tu logística de envíos</h2>
+            <h2 class="slogan-title scroll-reveal" data-translate="slogan">
+                <span class="scroll-reveal-text">Una sola plataforma digital para toda tu logística de envíos</span>
+            </h2>
         </div>
     </section>
 
@@ -241,10 +243,34 @@
         <div class="container">
             <h2 class="section-title" data-translate="team-title">Equipo Horizon</h2>
             <div class="team-grid">
-                <div class="team-card"><p class="team-text">Desarrolladores especializados en sistemas SaaS construyendo la próxima generación de software logístico para empresas.</p></div>
-                <div class="team-card"><p class="team-text">Especialistas en UX/UI enfocados en hacer de Sendify una herramienta intuitiva para administradores, empleados y clientes finales.</p></div>
-                <div class="team-card"><p class="team-text">Expertos en operaciones logísticas y gestión de flotas aportando experiencia real para resolver problemas del sector.</p></div>
-                <div class="team-card"><p class="team-text">Soporte técnico especializado en sistemas de tracking y gestión de envíos, comprometido con acompañar a cada cliente 24/7.</p></div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="img/Osores Marchese, Pietro.png" alt="Pietro Osores Marchese" class="team-photo">
+                    </div>
+                    <h3 class="team-name">Pietro Osores Marchese</h3>
+                    <p class="team-text" data-translate="team-pietro-desc">Visionario tecnológico con más de 8 años de experiencia en desarrollo de software empresarial. Lidera la estrategia de SENDIFY y supervisa la innovación continua de la plataforma.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="img/Cossar Sanchez, Eduardo Jose.png" alt="Eduardo José Cossar Sánchez" class="team-photo">
+                    </div>
+                    <h3 class="team-name">Eduardo José Cossar Sánchez</h3>
+                    <p class="team-text" data-translate="team-eduardo-desc">Arquitecto de software especializado en sistemas SaaS escalables. Dirige el desarrollo técnico de SENDIFY, asegurando la robustez y escalabilidad de la plataforma.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="img/Aguirre Eneque, Joan Elias.png" alt="Joan Elías Aguirre Eneque" class="team-photo">
+                    </div>
+                    <h3 class="team-name">Joan Elías Aguirre Eneque</h3>
+                    <p class="team-text" data-translate="team-joan-desc">Desarrollador full-stack con expertise en tecnologías modernas. Encargado de implementar las funcionalidades core de SENDIFY y optimizar el rendimiento de la plataforma.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="img/Payesa Torres, Harrison Hubert.png" alt="Harrison Hubert Payesa Torres" class="team-photo">
+                    </div>
+                    <h3 class="team-name">Harrison Hubert Payesa Torres</h3>
+                    <p class="team-text" data-translate="team-harrison-desc">Diseñador de experiencia de usuario especializado en interfaces empresariales. Crea experiencias intuitivas que hacen de SENDIFY una herramienta fácil de usar para todos los usuarios.</p>
+                </div>
             </div>
             <p class="team-description" data-translate="team-description">Horizon es el equipo core detrás de SENDIFY, comprometido con la innovación y la digitalización de la gestión logística para empresas de cualquier tamaño.</p>
         </div>
@@ -259,7 +285,9 @@
     <section class="pricing">
         <div class="container">
             <h2 class="section-title" data-translate="pricing-title">Planes de Suscripción</h2>
-            <div class="pricing-grid">
+            <div class="pricing-container">
+                <img src="img/caja1.png" alt="Caja de envío SENDIFY" class="caja-overlay">
+                <div class="pricing-grid">
                 <div class="pricing-card">
                     <h3 class="pricing-title" data-translate="plan-basico">Starter</h3>
                     <div class="pricing-price" data-translate="pricing-starter-price">USD 49.90/mes</div>
@@ -296,6 +324,7 @@
                     </ul>
                     <button class="btn btn-primary" data-translate="btn-elegir-plan">Elegir Plan</button>
                 </div>
+            </div>
             </div>
         </div>
     </section>
