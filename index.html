@@ -60,7 +60,15 @@
                     <h1 class="hero-title" data-translate="hero-title">Sistema web SaaS para gestión logística de envíos</h1>
                     <p class="hero-subtitle" data-translate="hero-subtitle">Sendify permite a empresas de cualquier tamaño crear, organizar y dar seguimiento a sus envíos en una sola plataforma digital. Desde pymes hasta operadores logísticos.</p>
                     <div class="hero-buttons">
-                        <button class="btn btn-primary" data-translate="btn-comenzar">Probar gratis</button>
+                     <button class="btn btn-primary" data-translate="btn-comenzar" id="btn-comenzar">
+  Probar gratis
+</button>
+
+<script>
+  document.getElementById('btn-comenzar').addEventListener('click', () => {
+    window.location.href = 'https://proyecto-sendify.vercel.app';
+  });
+</script>
                         <button class="btn btn-secondary" onclick="scrollToPricing()" data-translate="btn-ver-planes">Ver planes</button>
                     </div>
                 </div>
