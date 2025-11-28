@@ -594,30 +594,18 @@ body::before {
 .video-container {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-top: 40px;
 }
 
-.video-placeholder {
-    width: 600px;
-    height: 400px;
-    background-color: #2C2C2C;
+.video-player {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    background-color: #000;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.video-placeholder:hover {
-    background-color: #3C3C3C;
-    transform: scale(1.02);
-}
-
-.video-placeholder i {
-    font-size: 80px;
-    color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 }
 
 /* Testimonials Section */
@@ -1406,9 +1394,9 @@ body::before {
         padding: 60px 0;
     }
     
-    .video-placeholder {
-        width: 100%;
-        height: 250px;
+    .video-player {
+        max-width: 100%;
+        height: auto;
     }
     
     .testimonials {
@@ -1610,12 +1598,8 @@ body::before {
         font-size: 26px;
     }
     
-    .video-placeholder {
-        height: 200px;
-    }
-    
-    .video-placeholder i {
-        font-size: 60px;
+    .video-player {
+        max-width: 100%;
     }
     
     .testimonial-card {
@@ -1734,4 +1718,3 @@ body::before {
         font-size: 12px;
     }
 }
-
