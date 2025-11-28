@@ -282,44 +282,14 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(card);
     });
 
-    // Botones de llamada a la acción
-    const ctaButtons = document.querySelectorAll('.btn-primary');
-    ctaButtons.forEach(button => {
+    // Botones de prueba/planes: redirigen al producto
+    const productUrl = 'https://frontend-azure-beta-84.vercel.app';
+    const productButtons = document.querySelectorAll('[data-product-link]');
+    productButtons.forEach(button => {
         button.addEventListener('click', function() {
-            // Aquí puedes agregar la lógica para manejar los clics en los botones
-            console.log('Botón CTA clickeado:', this.textContent);
-            
-            // Ejemplo: mostrar un modal o redirigir
-            if (this.textContent.includes('gratis')) {
-                alert('¡Gracias por tu interés! Te contactaremos pronto.');
-            } else if (this.textContent.includes('ahora')) {
-                alert('¡Excelente elección! Te redirigiremos al proceso de registro.');
-            } else if (this.textContent.includes('Contáctanos')) {
-                alert('¡Perfecto! Nuestro equipo se pondrá en contacto contigo.');
-            }
+            window.location.href = productUrl;
         });
     });
-
-    // Placeholder del video
-    const videoPlaceholder = document.querySelector('.video-placeholder');
-    if (videoPlaceholder) {
-        videoPlaceholder.addEventListener('click', function() {
-            // Aquí puedes agregar la lógica para reproducir el video
-            alert('Reproduciendo video de presentación de SENDIFY...');
-            
-            // Ejemplo: cambiar el ícono de play por un ícono de pausa
-            const playIcon = this.querySelector('i');
-            if (playIcon.classList.contains('fa-play')) {
-                playIcon.classList.remove('fa-play');
-                playIcon.classList.add('fa-pause');
-                this.style.backgroundColor = '#FF7B00';
-            } else {
-                playIcon.classList.remove('fa-pause');
-                playIcon.classList.add('fa-play');
-                this.style.backgroundColor = '#2C2C2C';
-            }
-        });
-    }
 
     // Efectos hover mejorados para las tarjetas
     cards.forEach(card => {
